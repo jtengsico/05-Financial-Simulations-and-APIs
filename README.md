@@ -4,7 +4,7 @@
 <h3 align="center">Financial Planner</h3>
 
   <p align="center">
-  This financial planner 
+  This financial planner is a tool for emergency funds and retirement planning. 
     <a href="https://github.com/jtengsico/05-Financial-Simulations-and-APIs.git">
   </p>
 </div>
@@ -13,7 +13,6 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a>
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
@@ -22,17 +21,20 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-T
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- Built With -->
 ### Built With
 * python 3.7 
-* streamlit 0.84.2
-* datetime 4.3
-* pandas 1.2.5
+* os
+* requests
+* json
+* pandas 
+* dotenv
+* alpaca_trade_api 
+* MCForecastTools 
+* datetime 
+* %matplotlib inline
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -40,35 +42,38 @@ T
 ### Installation 
 
 To setup this program on your desktop, please clone the repo.
-After cloning the repo, go .
-
-The machine learning model was run using Google Colab. 
-A saved LSTM and CNN model is saved in json and you can use those models so you won't have to import the ipynb file to Google Colab to re-run the model. 
-
-
+Follow the steps below. 
 1. Clone the repo
    ```sh
-   git clone 
+   git clone https://github.com/jtengsico/05-Financial-Simulations-and-APIs.git
    ```
-2. Install required python packages listed in the ipynb file. 
-   ```sh
-   use conda or pip install
-   ```
-3. Run the file in jupyter lab/notebook
+2. Install required python packages listed in the Built With section. 
+3. Navigate to the file in your terminal and launch it in jupyter notebook/lab. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- Sample Data -->
-## Sample Data
-SVM Model is shown below. 
-![svm_fear.greed.png](images/svm_fear.greed.png)
-![fear_and_greed.png](images/fear_and_greed.png)  
-![svm_plot.png](images/svm_plot.png)
+<!-- Usage-->
+### Usage
+
+1. Value of Portfolio
+![value_of_portfolio.png](images/value_of_portfolio.png)
+
+2. MCForecast Simulation 1 
+![mcsimulation_1.png](images/mcsimulation_1.png)  
+
+3. Simulation 1 Cumulative Returns
+![mc_cumulative_returns.png](images/mc_cumulative_returns.png)
+
+4. MCForecast Simulation 2
+![mc_simulation_2.png](images/mc_simulation_2.png)
+
+5. Simulation 2 Cumulative Returns 
+![mc_cumulative_return_2.png](images/mc_cumulative_return_2.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
-## License
+### License
 
 Distributed under the MIT License.
 See [license txt](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
@@ -76,7 +81,7 @@ See [license txt](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+### Acknowledgments
 Credit to creator of readme template. The repo also has useful resources. 
 * [README Template](https://github.com/othneildrew/Best-README-Template.git)
 
