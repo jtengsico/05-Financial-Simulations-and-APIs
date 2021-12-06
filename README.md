@@ -1,11 +1,11 @@
 <div id="top"></div>
 <br />
 
-<h3 align="center">PyChain Ledger</h3>
+<h3 align="center">Financial Planner</h3>
 
   <p align="center">
-PyChain ledger is a blockchain-based ledger with a user friendly web interface. 
-    <a href="https://github.com/jtengsico/18-Blockchain-With-Python.git">View Demo</a>
+  This financial planner 
+    <a href="https://github.com/jtengsico/05-Financial-Simulations-and-APIs.git">
   </p>
 </div>
 
